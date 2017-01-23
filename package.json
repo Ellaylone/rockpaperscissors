@@ -1,0 +1,29 @@
+{
+  "name": "rock-paper-scissors",
+  "version": "1.0.0",
+  "description": "npm package for rock paper scissors",
+  "main": "index.js",
+  "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ellaylone/rock-paper-scissors.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ellaylone/rock-paper-scissors/issues"
+  },
+  "homepage": "https://github.com/Ellaylone/rock-paper-scissors#readme",
+  "bin": {
+    "rps": "./bin/rock-paper-scissors.js"
+  },
+  "devDependencies": {
+    "editorconfig": "0.13.2",
+    "eslint": "3.14.0",
+    "eslint-config-google": "0.7.1",
+    "jest": "18.1.0"
+  }
+}
