@@ -26,7 +26,6 @@ module.exports = function() {
 
             if (userChoice < 0) {
                 console.log('I don\'t understand.');
-                rl.close();
             } else {
                 switch (userChoice) {
                     case pcChoice:
